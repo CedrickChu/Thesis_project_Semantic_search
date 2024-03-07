@@ -1,0 +1,9 @@
+nltk
+gensim
+numpy
+regex
+scikit-learn
+spacy
+pymongo
+requests
+streamlit
