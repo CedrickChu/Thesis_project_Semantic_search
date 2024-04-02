@@ -39,6 +39,7 @@ def get_query_vector(word2vec_model, query_tokens):
 
     query_vector = np.mean([word2vec_model.wv[word] for word in valid_tokens], axis=0)
     return query_vector
+
 def train_word2vec_model(corpus):
     VECTOR_SIZE = 100
     WINDOW = 10
