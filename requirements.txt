@@ -7,3 +7,4 @@ spacy
 pymongo
 requests
 streamlit
+bokeh

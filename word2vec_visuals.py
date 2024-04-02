@@ -45,8 +45,6 @@ for i in range(num_titles):
 plot = figure(title="Thesis Knowledge Graph", x_range=(-1.5, 1.5), y_range=(-1.5, 1.5),
               tools="pan,wheel_zoom,box_zoom,reset,hover,save")
 
-
-
 # Add hover tool
 hover = HoverTool()
 hover.tooltips = [("Title", "@title")]
